@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Merriweather&family=Noto+Serif:wght@700&family=Patua+One&family=Roboto&display=swap" rel="stylesheet">
     <title>Cozy apartments</title>
 </head>
-
 <body>
-    <header id="Cozy apartments" <nav>
-        <div class="logo">Cozy apartments</div>
-        <ul class="menu">
-            <li><a href="#about">About</a></li>
-            <li><a href="#our-flats">Our flats</a></li>
-            <li><a href="#facilities">Facilities</a></li>
-            <li><a href="#contacts">Contacts</a></li>
-        </ul>
-        <p><img src="img/flat-header.jpeg" alt="Flat-header-page"></p>
-        </nav>
+    <!---Header section-->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header_logo">Cosy apartments</div>
+                    <nav class="nav">
+                        <li><a class="nav__link" href="#About">About</a></li>
+                        <li><a class="nav__link" href="#Our-flats">Our flats</a></li>
+                        <li><a class="nav__link" href="#Facilities">Facilities</a></li>
+                        <li><a class="nav__link" href="#Contacts">Contacts</a></li>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
         <div class="banner">
+            <div class="container"></div>
             <h1>Cosy apartments</h1>
             <p>Welcome to the most comfortable apartments in the heart of Budapest!</p>
         </div>
-
         <div>
             <h2>Want to book a flat?</h2>
             <p>Send a request and get a complete list of our offers!</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem dolor ad a, saepe dolorem possimus
                 obcaecati quaerat, libero accusantium reiciendis quia. Nobis repellat qui, voluptates eius maxime
                 deleniti? Magni?</p>
-            <form method="POST" action="your action" <label>
+            <form method="POST" action="your action">
+                <label>
                 Arrival date: <input name="arrival-date" type="text" placeholder="dd/mm/yy" required>
                 </label>
                 <br>
@@ -52,7 +58,6 @@
                 <input type="Reset">
             </form>
         </div>
-
         <h2 id="about">About</h2>
         <div class="about"></div>
         <p>Cozy apartments is a family business that has been home for travelers and backpackers here in Budapest for
@@ -66,8 +71,5 @@
         <div class="facilities"></div>
         <h2 id="contacts">Contacts</h2>
         <div class="contacts"></div>
-
 </body>
-
-
 </html>
