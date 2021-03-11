@@ -1,53 +1,110 @@
-body {
-    margin: 0px;
+:root {
+    --main-color: white;
+    --accent-color: blue;
+    --button-hover: #99c7df;
+    --header-color: #263044;
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    line-height: 1.6;
-    }
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
     width: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #212c42;
-    color: white;
-    list-style: none;
+    background-color: var(--header-color);
+    color: var(--main-color);
+    height: 107px;
 }
-.header__inner {
-    display: flex;
-    justify-content: space-between;    
-}
-.header_logo {
+
+.logo {
     font-size: 30px;
-    font-weight: 800;
-    color: #fff;
-    float: left;
+    font-weight: 1,5rem;
+    color: var(--main-color);
+    margin-left: 80px;
+    margin-top: 40px;
+}
 
-ul {
-  list-style: none;
-  margin: 0; 
-  padding-left: 0;
+header .menu {
+    list-style-type: none;
+    margin-top: 40px;
+    margin-left: 300px;
 }
-a {text-decoration: none; 
+
+header .menu a {
+    text-decoration: none;
+    color: var(--main-color);
 }
-/* Container */
-.container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+
+header .menu a:hover {
+    color: var(--button-hover);
 }
+
+@media (min-width: 610px) {
+    
+    header nav {
+        display: flex;
+    }
+
+    header .menu {
+        display: flex;
+        justify-content: space-around;
+        flex: 1;
+        align-items: center;
+    }
+
+}
+
+.banner {
+    background-image: url(../img/header-flat-photo.jpeg);
+    background-size: cover;
+    background-position: center;
+        
+    color: var(--main-color);
+    display: flex;
+    min-height: 700px;
+    flex-direction: column;
+}
+
+.banner-text {
+    margin-left: 60px;
+    margin-top: 250px;
+    font-size: 40px;
+    text-align: left;
+}
+
+.banner-description {
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+
+.our-flats {
+    background-image: cover;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
 /* map */
-
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
 }
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
