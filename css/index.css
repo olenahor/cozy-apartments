@@ -91,8 +91,7 @@ header .menu a:hover {
     }
 }
 
-.banner {
-    background-image: url(../img/header-flat-photo.jpeg);
+.banner {    
     background-size: cover;
     background-position: center;
     color: var(--banner-text-color);
