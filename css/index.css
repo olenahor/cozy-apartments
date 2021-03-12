@@ -3,7 +3,7 @@
     --banner-text-color: black;
     --button-hover: #99c7df;
     --header-color: #263044;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -15,7 +15,7 @@
 body {
     max-width: 980px;
     margin: auto;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .burger-icon {
@@ -39,10 +39,10 @@ header {
 
 .logo {
     font-size: 30px;
-    font-weight: 1,5rem;
+    font-weight: 1, 5rem;
     color: var(--main-color);
     margin-left: 80px;
-    margin-top: 40px;    
+    margin-top: 40px;
 }
 
 header .menu {
@@ -74,7 +74,6 @@ header .menu a:hover {
 }
 
 @media (min-width: 610px) {
-    
     header nav {
         display: flex;
     }
@@ -93,9 +92,9 @@ header .menu a:hover {
 }
 
 .banner {
-    background-image: url(../img/header-flat-photo.jpeg);    
+    background-image: url(../img/header-flat-photo.jpeg);
     background-size: cover;
-    background-position: center;        
+    background-position: center;
     color: var(--banner-text-color);
     display: flex;
     min-height: 700px;
@@ -106,7 +105,7 @@ header .menu a:hover {
     margin-left: 60px;
     margin-top: 250px;
     font-size: 40px;
-    text-align: left;    
+    text-align: left;
 }
 
 .banner-description {

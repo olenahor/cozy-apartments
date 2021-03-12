@@ -1,39 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+        <title>Cozy apartments</title>
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Merriweather&family=Noto+Serif:wght@700&family=Patua+One&family=Roboto&display=swap" rel="stylesheet" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width, initial-scale=1.0">
-    <title>Cozy apartments</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Merriweather&family=Noto+Serif:wght@700&family=Patua+One&family=Roboto&display=swap" rel="stylesheet">   
-</head>
+    <body>
+        <!---Header section-->
+        <header id="home">
+            <nav>
+                <div class="logo">Cosy apartments</div>
+                <label class="burger-icon" for="burger-checkbox">☰</label>
+                <input type="checkbox" id="burger-checkbox" />
+                <ul class="menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#our-flats">Our flats</a></li>
+                    <li><a href="#facilities">Facilities</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
 
-<body>
-    <!---Header section-->
-    <header id="home">
-        <nav>
-            <div class="logo">Cosy apartments</div>
-            <label class="burger-icon" for="burger-checkbox">☰</label>
-            <input type="checkbox" id="burger-checkbox">
-            <ul class='menu'>
-                <li><a href="#about">About</a></li>
-                <li><a href="#our-flats">Our flats</a></li>
-                <li><a href="#facilities">Facilities</a></li>
-                <li><a href="#location">Location</a></li>
-                <li><a href="#contacts">Contacts</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <div class="banner">
+        <main>
+            <div class="banner">
                 <h1 class="banner-text">Cosy apartments</h1>
                 <p class="banner-description">Welcome to the most comfortable apartments in</p>
-                <p class="banner-description">the heart of Budapest!</p>       
-        </div>
-        
+                <p class="banner-description">the heart of Budapest!</p>
+            </div>
+
             <!--
             <div class="want-to-book-a-flat">
                 <h2>Want to book a flat?</h2>
@@ -61,40 +60,46 @@
                     <input type="Submit">                    
                 </form>
             </div>
-            -->        
-           
+            -->
+
             <h2 id="about">About</h2>
-                <div class="about">
-                    <p>Cozy apartments is a family business that has been home for travelers and backpackers here in Budapest for
-                        the past 17 years. Our founder intended to create a place which will be more than just a place to stay in a
-                        big city. Following his passion, he has created a Happy Hostel, where every guest is welcomed with a warm
-                        and friendly atmosphere. The hostel offers a variety of amenities such as a home-made breakfast, hot shower,
-                        and a clean bed. We are waiting for you here at Happy Hostel, your home in the heart of Budapest!</p> 
-                </div>
-        
+            <div class="about">
+                <p>
+                    Cozy apartments is a family business that has been home for travelers and backpackers here in Budapest for the past 17 years. Our founder intended to create a place which will be more than just a place to stay in a big
+                    city. Following his passion, he has created a Happy Hostel, where every guest is welcomed with a warm and friendly atmosphere. The hostel offers a variety of amenities such as a home-made breakfast, hot shower, and a
+                    clean bed. We are waiting for you here at Happy Hostel, your home in the heart of Budapest!
+                </p>
+            </div>
+
             <h2 id="our-flats">Our flats</h2>
-                <div class="our-flats">
-                    <img src="img/carusel-flat1.jpeg" alt="carusel-flat1">
-                    <img src="img/carusel-flat2.jpeg" alt="carusel-flat2">
-                    <img src="img/carusel-flat3.jpeg" alt="carusel-flat3">
-                </div>
+            <div class="our-flats">
+                <img src="img/carusel-flat1.jpeg" alt="carusel-flat1" />
+                <img src="img/carusel-flat2.jpeg" alt="carusel-flat2" />
+                <img src="img/carusel-flat3.jpeg" alt="carusel-flat3" />
+            </div>
 
             <h2 id="facilities">Facilities</h2>
-                <div class="facilities"></div>
+            <div class="facilities"></div>
 
             <h2 id="location">Location</h2>
             <h3>5 minutes walk to center</h3>
             <h3>7 minutes walk to the Main Bus Station</h3>
             <h3>10 minutes walk to the Main Train Station</h3>
-        
+
             <div class="location">Location</div>
-                <div class="map-responsive">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2695.6922264582986!2d19.06185831562666!3d47.49590877917746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc42b4e1672b%3A0x2019edbe2ce55548!2zQnVkYXBlc3QsIERvaMOhbnkgdS4gMjgsIDEwNzQg0KPQs9C-0YDRidC40L3QsA!5e0!3m2!1suk!2sua!4v1615372887051!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
+            <div class="map-responsive">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2695.6922264582986!2d19.06185831562666!3d47.49590877917746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc42b4e1672b%3A0x2019edbe2ce55548!2zQnVkYXBlc3QsIERvaMOhbnkgdS4gMjgsIDEwNzQg0KPQs9C-0YDRidC40L3QsA!5e0!3m2!1suk!2sua!4v1615372887051!5m2!1suk!2sua"
+                    width="600"
+                    height="450"
+                    style="border: 0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                ></iframe>
+            </div>
 
             <h2 id="contacts">Contacts</h2>
-                <div class="contacts"></div>    
-    </main>
-    
-</body>
+            <div class="contacts"></div>
+        </main>
+    </body>
 </html>
