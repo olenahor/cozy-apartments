@@ -38,12 +38,17 @@ header {
     height: 107px;
 }
 
+header .nav {
+    align-items: center;
+    height: 100%;
+}
+
 .logo {
     font-size: 30px;
     font-weight: 1, 5rem;
     color: var(--main-color);
-    margin-left: 80px;
-    padding: auto;
+    margin-left: 100px;
+    margin-top: auto;  
 }
 
 header .menu {
