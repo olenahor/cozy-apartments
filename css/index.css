@@ -20,6 +20,7 @@ body {
 
 .burger-icon {
     font-size: 3rem;
+    margin: auto;
 }
 
 .burger-icon:hover {
@@ -42,26 +43,19 @@ header {
     font-weight: 1, 5rem;
     color: var(--main-color);
     margin-left: 80px;
-    margin-top: 40px;
+    padding: auto;
 }
 
 header .menu {
     list-style-type: none;
     margin-top: 40px;
     margin-left: 200px;
-}
-
-header .menu {
-    list-style-type: none;
     display: none;
+    flex-direction: column;
 }
 
 header input:checked ~ .menu {
     display: flex;
-}
-
-header .menu {
-    flex-direction: column;
 }
 
 header .menu a {
@@ -92,7 +86,7 @@ header .menu a:hover {
 }
 
 .banner {
-    background-image: url(../img/header-flat-photo.jpeg);
+    background-image: url(../img/flat-photo-blured.png);
     background-size: cover;
     background-position: center;
     color: var(--banner-text-color);
@@ -113,12 +107,18 @@ header .menu a:hover {
     margin-left: 40px;
 }
 
-.our-flats {
+.our-flats, #facilities {
+    width: 100%;
     background-image: cover;
     background-position: center;
     background-size: cover;
     position: relative;
 }
+
+#our-flats, #about, #facilities, #location {
+    text-align: center;
+}
+
 
 /* map */
 .map-responsive {
